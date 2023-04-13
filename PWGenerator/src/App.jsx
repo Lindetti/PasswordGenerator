@@ -39,6 +39,7 @@ const createPassword = (length, includeUpperCase, includeLowerCase, includeNumbe
  return result;
 }
 
+//Generate Password
 const generatePassword = () => {
 
   if (!includeUpperCase && !includeLowerCase && !includeNumbers && !includeSymbols) {
