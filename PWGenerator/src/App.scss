@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(135deg, #9fbcdb 0%, #d0d8b3 100%);
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .generator-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(49, 48, 48);
+        color: white;
+        height: 500px;
+        width: auto;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 3px solid   #ececcc;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            h2 {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 2rem;
+            }
+            .displayPassword {
+                background-color:  #454745;
+               color: white;
+                height: 50px;
+                width: 270px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                border: 1px solid  #ececcc;
+                font-size: 1.3rem;
+                font-family: 'Secular One', sans-serif;
+
+            }
+            .form-group {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 250px;
+                height: 35px;
+                border-bottom: 1px solid  #ececcc;
+                font-family: 'Asap Condensed', sans-serif;
+                label {
+                    font-size: 1.2rem;
+                }
+
+                input {
+                    font-size: 1.2rem;
+                }
+            }
+            .generatePassword {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                width: auto;
+                margin-top: 1.5rem;
+                button {
+                    background-color:  #454745;
+                    padding: 0.8rem;
+                    border-radius: 5px;
+                    color: white;
+                    border-color:  #ececcc;
+                    width: 150px;
+                    font-size: 1rem;
+                    font-family: 'Secular One', sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+      }
+  }
+
+  footer {
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 1rem;
+    color: white;
+  }
+
+  footer a {
+    font-size: 1.2rem;
+    color: white;
+  }
+
