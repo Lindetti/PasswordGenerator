@@ -86,7 +86,7 @@ const generatePassword = () => {
     </div>
     <div className="form-group">
       <label htmlFor="password">Password Length</label>
-      <input className="pw" type="number" name="password" id="password" max="5" min="15" />
+      <input className="pw" type="number" name="password" id="password" max="15" min="5" />
     </div>
     <div className="form-group">
       <label htmlFor="upperCaseLetter">Inlclude Uppercase</label>
